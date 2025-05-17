@@ -17,7 +17,7 @@ function ModalTestWrapper() {
 describe('Modal', () => {
   it('should render', () => {
     render(<ModalTestWrapper />)
-    const modal = screen.getByText('Elegir un color para pintarr')
+    const modal = screen.getByText('Elegir un color para pintar')
     expect(modal).toBeDefined()
   })
 
